@@ -1,0 +1,6 @@
+
+        <% if(theme.show_last_updated){ %>
+        <span class="post-time">
+            最终更新: <%- full_date(post.updated) %>
+        </span><br>
+        <%} %>

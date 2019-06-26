@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在deepin里安装YouCompleteMe
+title: 安装YouCompleteMe
 date: 2018-05-14
 tags: [vim, Linux]
 

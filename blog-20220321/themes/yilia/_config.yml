@@ -1,0 +1,186 @@
+# Header
+
+menu:
+  主页: /
+  技术栈: /tags/技术
+  刷题OJ: /tags/刷题
+  随笔: /tags/随笔
+  写诗的木夕: /tags/诗歌
+  about: /about
+
+
+
+# SubNav
+subnav:
+  github: "http://github.com/wmjtxt"
+  weibo: "https://weibo.com/671238643/home?wvr=5&lf=reg"
+  #rss: "#"
+  zhihu: "https://www.zhihu.com/"
+  #qq: "972213032"
+  #weixin: "wmjtxt"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  #mail: "972213032@qq.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root: /
+
+# Content
+
+# 文章太长，截断按钮文字
+excerpt_link: more
+
+# 文章卡片右下角常驻链接，不需要请设置为false
+show_all_link: '展开全文'
+# 数学公式
+mathjax: false
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 打赏
+# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 2
+# 打赏wording
+reward_wording: '谢谢你请我吃糖果'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
+alipay: /images/zfb.png
+# 微信二维码图片地址
+weixin: /images/wx.png
+
+# 目录
+# 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
+toc: 2
+# 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
+toc_hide_index: true
+# 目录为空时的提示
+toc_empty_wording: '目录，不存在的…'
+
+# 是否有快速回到顶部的按钮
+top: true
+
+# Miscellaneous
+baidu_analytics: ''
+google_analytics: ''
+
+favicon: /images/favicon.ico
+
+#你的头像url
+avatar: /images/aa.jpeg
+
+#是否开启分享
+share_jia: true
+
+#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
+#不需要使用某项，直接设置值为false，或注释掉
+#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+
+#1、多说
+duoshuo: false
+
+#2、网易云跟帖
+wangyiyun: false
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+disqus: false
+
+#5、Gitment
+#gitment_owner: wmjtxt      #你的 GitHub ID
+#gitment_repo: ''          #存储评论的 repo
+#gitment_oauth:
+#  client_id: ''           #client ID
+#  client_secret: ''       #client secret
+
+#6 Valine Comment system. https://valine.js.org
+valine:
+  enable: true # 如果你想使用valine，请将值设置为 true
+  appid: 4tTGIFVIbVtLxkWj9STjVP6q-gzGzoHsz # your leancloud appId
+  appkey: WyhzS2MIGIGDdxqiRCSEmHyh # your leancloud appKey
+  #appid: H08LY6aXFE3lNFgcP804994b-gzGzoHsz # your leancloud appId
+  #appkey: Ey69iSKfyTlntTlJ2ghDsQyp # your leancloud appKey
+  notify: true # Mail notify
+  verify: true # Verify code
+  avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  placeholder: 欢迎评论^-^, 评论时最好留下你的邮箱哦，就写在上面^，不然你就收不到我的回复啦 # Comment Box placeholder
+  guest_info: nick,mail,link # Comment header info
+  pageSize: 10 # comment list page size
+  recordIP: true
+  emojiCDN: true
+  enableQQ: true
+
+#7 Gitalk
+gitalk:
+    enable: false
+    githubID: wmjtxt
+    repo: muxicomment
+    clientID: f8c5b48d3c5e1451977b
+    clientSecret: 6b22bba429ecbd20d384543f76a8c6421aa6e503
+    adminUser: wmjtxt
+    distractionFreeMode: true
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#4d4d4d'
+  # 右滑板块背景
+  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+
+# “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
+visit_counter:
+  site_uv: 站点总访客数：
+  site_pv: 站点总访问量：
+
+# 站点运行开始时间
+time:
+  enable: true
+  year: 2018 # 年份
+  month: 04 # 月份
+  date: 11 # 日期
+  hour: 00 # 小时
+  minute: 00 # 分钟
+  second: 00 # 秒
+
+# 是否显示文章最后更新时间
+show_last_updated: true
+
+# slider的设置
+slider:
+  # 是否默认展开tags板块
+  showTags: false
+
+# 智能菜单
+# 如不需要，将该对应项置为false
+# 比如
+#smart_menu:
+#  friends: flase
+smart_menu:
+  innerArchive: '所有文章'
+  friends: '友情链接'
+  aboutme: '关于我'
+
+friends:
+  柳婼のblog: http://www.liuchuo.net/
+  百度: http://www.baidu.com/
+  广告位出租1: http://localhost:4000/
+  广告位出租2: http://localhost:4000/
+  广告位出租3: http://localhost:4000/
+  广告位出租4: http://localhost:4000/
+
+aboutme: 972213032@qq.com
+
+#ICP:
+#ICP_license: 豫ICP备19007801号
